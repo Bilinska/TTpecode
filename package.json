@@ -1,0 +1,19 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:report": "generate-mochawesome-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "cypress": "^9.1.0",
+    "cypress-mochawesome-reporter": "^2.3.0",
+    "mocha": "^9.1.3"
+  }
+}

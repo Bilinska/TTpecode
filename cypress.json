@@ -1,0 +1,11 @@
+{
+  "baseUrl": "https://www.pecodesoftware.com/qa-portal/registerlogin/registerlogin.php",
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reporterEnabled": "cypress-mochawesome-reporter, mocha-junit-reporter",
+    "mochaJunitReporterReporterOptions": {
+      "mochaFile": "cypress/results/junit/results-[hash].xml"
+    }
+  },
+  "projectId": "8qfuvv"
+  }
